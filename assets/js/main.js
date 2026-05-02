@@ -93,7 +93,7 @@ Features:
 
       const finalLink =
         window.location.origin +
-        "/go/" +
+        "/safelink/go/" +
         slug;
 
       generated.value = finalLink;
