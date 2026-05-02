@@ -215,8 +215,8 @@ Features:
   function getSlug() {
     const path = window.location.pathname;
 
-    if (path.includes("/go/")) {
-      return path.split("/go/")[1];
+    if (path.includes("/safelink/go/")) {
+      return path.split("/safelink/go/")[1];
     }
 
     const params = new URLSearchParams(
