@@ -18,7 +18,7 @@ function copyLink() {
 
 // ================= Waiting Page =================
 
-let countdown = 10;
+let countdown = 5;
 
 if (window.location.pathname.includes('go.html')) {
   const timer = setInterval(() => {
